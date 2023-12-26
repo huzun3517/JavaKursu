@@ -1,0 +1,45 @@
+Bir okulun çalışanı ve öğrencilerinin kayıt altına alındığı bir program yapılmak isteniyor.
+1- Calisan ların isim, adres, Okul, maas ve UyeTipi (Enum: Ogrenci, Calisan)  bilgileri vardır.
+2- Öğrenci lerin isim, adres, Okul, ücret ve UyeTipi (Enum: Ogrenci, Calisan)  bilgileri vardır.
+3- Okul un ise ismi, maxOgrenciSayisi, Öğrencileri ve Calisanlari vardır.
+
+
+// düşünüyorum....
+burada nesnelerin ortak özelliklerini tekrar tekrar yazmamak için, ortak özellikleri aynı olan
+özellikleri bir sınıf yapıp, diğerlerini bundan türetebilirmiyim.
+
+inceleme sonucunda calisan ve öğrencide ortak özelliklerin fazla olduğu gözüktü.
+ozaman kisi isminde bir sınıfta bu ortak özellikleri toplayıp, burada ortak metodları yazıp,
+daha sonra öğrenci ve calisan sınıfın buradan türeterek az kodla yazabilirim.
+
+kisi, UyeTipi, Ogrenci, Calisan
+
+Şimdi Okul a geçebiliriz. Okul sınıfı tanımlandı,
+Okula öğrenci ve Calisan eklemek için gerekli metodları yazmamız lazım.
+
+
+
+
+
+English ***
+Part 1: Create inheritance as in following picture
+
+
+Part 2: In toString methods of Student show in example below
+Student
+name: John
+address: Main 1011
+fee: $1000
+
+
+In toString methods of Employee show in example below
+Employee
+name: Max
+address: Lower st 15
+salary: $60_000
+
+Part 3: Add properties to School class as in picture
+
+Part 4: Create class SchoolManagement, register some students and employees to your school
+(Hint: constructors)
+
